@@ -1,7 +1,8 @@
 package com.egecius.git_practice;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         } catch (Exception e) {
         	e.printStackTrace();
         }
+        Log.v("Eg:MainActivity:21", "demo added in 'demo_2'");
+
     }
     
 }
